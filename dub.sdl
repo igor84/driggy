@@ -1,0 +1,8 @@
+name "driggy"
+targetPath "bin"
+
+configuration "application" {
+	targetType "executable"
+	dflags "-mcpu=native"
+	buildOptions "betterC"
+}
